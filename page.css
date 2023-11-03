@@ -16,12 +16,24 @@ body {
 #botol {
     background-color:brown;
     
-
+    
 }
 
+.judul2 {
+    background-color: blue;
+}
 
+.judul3 {
+    background-color: red;
+}
 
+h3 .judul2 .judul3 {
+    background-color: yellow;
+}
 
+div .cull .vanness{
+    background-color: yellow;
+}
 
 
 
