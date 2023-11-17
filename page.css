@@ -54,10 +54,21 @@ div .cull .vanness{
     color:#41352B
 }
 
+.footer-logo{
+    width: 40px;
+    height: 40px;
+}
+.footer-heading{
+    margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 20px;
+}
 
-#sidenav{
- margin: 100 0 0 0;
-
+.footer-subheading{
+    margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 16px;
 }
 
 
@@ -125,8 +136,6 @@ div .cull .vanness{
 
 
 }
-
-
 
 
 
