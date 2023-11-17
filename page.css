@@ -89,6 +89,35 @@ div .cull .vanness{
 }
 
 
+.card_pay{
+    font-size: 20pt;
+    align-content: center;
+}
+
+.pay{
+    margin: 20px 40%;
+    padding: 0 10px;
+    border: 2px solid #41352B;
+
+}
+
+#idk{
+    justify-content:center;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer-logo{
     width: 40px;
     height: 40px;
