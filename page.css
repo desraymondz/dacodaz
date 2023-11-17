@@ -8,14 +8,45 @@ body {
     /* testing */
 }
 
+.judul {
+    background-color: aqua;
+    color: bisque;
+}
+
+#botol {
+    background-color:brown;
+    
+    
+}
+
+.judul2 {
+    background-color: blue;
+}
+
+.judul3 {
+    background-color: red;
+}
+
+h3 .judul2 .judul3 {
+    background-color: yellow;
+}
+
+div .cull .vanness{
+    background-color: yellow;
+}
+
 .newrelease{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 .sectioncolor{
     background-color:#BA9984;
     color:#41352B;
+    padding-top: 10px;
 }
 .bg-colornavbar{
     background-color: #F5F4E8;
@@ -27,13 +58,13 @@ body {
     margin-left: 15px;
     padding-top:7px;
 }
-
 .fontnavbar{
     color:#41352B
 }
 .categorycolor{
     background-color: #C3B6A7;
     color: #41352B;
+    padding-top: 10px;
 }
 .spaceevenly{
     display:flex;
@@ -48,6 +79,31 @@ body {
 }
 .paddingtop{
     padding-top:8px;
+}
+.paddingbottom{
+    padding-bottom:65px;
+}
+.buttoncolor{
+    background-color:#41352B;
+    color:#F5F4E8;
+}
+
+
+.footer-logo{
+    width: 40px;
+    height: 40px;
+}
+.footer-heading{
+    margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer-subheading{
+    margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 16px;
 }
 
 footer {
@@ -71,18 +127,7 @@ footer {
     padding-right: 10px;
 }
 
-.footer-col-1 {
 
-}
-.footer-col-2 {
-
-}
-.footer-col-3 {
-
-}
-.footer-col-4 {
-
-}
 
 
 
@@ -139,32 +184,6 @@ footer {
     margin-top: 6px;
 }
 
-.membership {
-    background-color: #F4F4E7;
-    height: 520px;
-}
-
-.membership-arc {
-    top: 50%; 
-    left: 50%; 
-    height: 260px; 
-    width: 100vw; 
-    border-radius: 0 0 100% 100%; 
-    background-color: #EEE3D0; 
-}
-
-.membership-title {
-    /* margin-top: -20px; */
-    display: flex;
-    justify-content: center;
-
-}
-
-.membership-text {
-    font-weight: 600;
-    font-size: 58px;
-    margin-top: 50px;
-}
 
 /* 👇🏻for mobile size */
 @media (max-width: 767px) {
@@ -172,80 +191,6 @@ footer {
 
 }
 
-.sidenav2 {
-    position: sticky;
-    top: 10px;
-    background-color: rgb(215, 181, 126);
-    overflow-y: scroll;
-    padding-top: 10px;
-    float: left;
-    border-style: solid;
-    border-color: rgb(65, 53, 43);
-    border-radius: 15px;
-}
-
-.sidenav2::-webkit-scrollbar {
-    display: none;
-  }
-
-.sidenav2 a {
-    font-weight: bold;
-    padding: 5px 15px 10px 30px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #5c5c5c;
-    display: block;
-    background-image: linear-gradient(
-        to left,
-        #7473d4,
-        #7473d4 50%,
-        rgb(240, 243, 255) 50%
-    );
-    background-size: 200% 100%;
-    background-position: 0%;
-    background-clip: text;
-    transition: all 0.2s ease-in-out;
-}
-
-.sidenav2 a:hover {
-    background-position: -100%;
-    color: salmon;
-}
-
-.sidenav2 a:hover::before {
-    width: 100%;
-}
- 
-.cards-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.products-section{
-    margin-top: 100px;
-}
-.chicken-gawing{
-    margin-left: 20px;
-}
-.solo-card{
-    display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.item{
-    margin: 10px;
-}
 
 
 /* ❤️made with love by dacodaz 13 Nov 2023 Hackathon SIM UOL CSSC 🎓 Desmond, Alex, Vanness, Fukutaro, Cull */
