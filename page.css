@@ -54,6 +54,7 @@ div .cull .vanness{
     margin-left: 15px;
     padding-top:7px;
 }
+<<<<<<< Updated upstream
 .fontnavbar{
     color:#41352B
 }
@@ -78,26 +79,42 @@ div .cull .vanness{
 
 
 <<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 
-.footer-logo{
-    width: 40px;
-    height: 40px;
-}
-.footer-heading{
-    margin-top: 0;
-  margin-bottom: 12px;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.footer-subheading{
-    margin-top: 0;
-  margin-bottom: 12px;
-  font-size: 16px;
+footer {
+    font-family: 'Playfair Display', sans-serif;  
+    background-color: #b99984;
 }
 
 
+.footer-container{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
 
+}
+.footer-col{
+    width: 260;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-col-1 {
+
+}
+.footer-col-2 {
+
+}
+.footer-col-3 {
+
+}
+.footer-col-4 {
+
+}
 
 
 =======
