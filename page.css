@@ -77,6 +77,7 @@ div .cull .vanness{
 }
 
 
+<<<<<<< Updated upstream
 
 .footer-logo{
     width: 40px;
@@ -99,6 +100,8 @@ div .cull .vanness{
 
 
 
+=======
+>>>>>>> Stashed changes
 
 
 /* dcz is dacodaz generalised CSS rule */
@@ -161,6 +164,64 @@ div .cull .vanness{
 
 }
 
+.sidenav2 {
+    position: sticky;
+    top: 10px;
+    background-color: rgb(215, 181, 126);
+    overflow-y: scroll;
+    padding-top: 10px;
+    float: left;
+    border-style: solid;
+    border-color: rgb(65, 53, 43);
+    border-radius: 15px;
+}
 
+.sidenav2::-webkit-scrollbar {
+    display: none;
+  }
+
+.sidenav2 a {
+    font-weight: bold;
+    padding: 5px 15px 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #5c5c5c;
+    display: block;
+    background-image: linear-gradient(
+        to left,
+        #7473d4,
+        #7473d4 50%,
+        rgb(240, 243, 255) 50%
+    );
+    background-size: 200% 100%;
+    background-position: 0%;
+    background-clip: text;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidenav2 a:hover {
+    background-position: -100%;
+    color: salmon;
+}
+
+.sidenav2 a:hover::before {
+    width: 100%;
+}
+ 
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.products-section{
+    margin-top: 100px;
+}
+.chicken-gawing{
+    margin-left: 20px;
+}
+.solo-card{
+    display: flex;
+}
 
 /* ❤️made with love by dacodaz 13 Nov 2023 Hackathon SIM UOL CSSC 🎓 Desmond, Alex, Vanness, Fukutaro, Cull */
