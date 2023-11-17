@@ -74,6 +74,7 @@ div .cull .vanness{
 .spaceevenly{
     display:flex;
     justify-content: space-evenly;
+    padding-bottom: 50px;
 }
 
 .navflex{
@@ -336,7 +337,11 @@ footer {
     width: 100%;
 }
 .best-selling{
-    background-color:rgb(247, 214, 161);
+    background-color:#EEE3D0;
+}
+
+.btn-primary{
+    background-color: #41352B;
 }
 
 /* ❤️made with love by dacodaz 13 Nov 2023 Hackathon SIM UOL CSSC 🎓 Desmond, Alex, Vanness, Fukutaro, Cull */
