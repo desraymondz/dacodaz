@@ -1,5 +1,5 @@
 body {
-    font-family: 'playfair', sans-serif;  
+    font-family: 'Playfair Display', sans-serif;  
     background-color: rgb(250, 250, 250);
 }
 
@@ -37,6 +37,9 @@ div .cull .vanness{
 
 .newrelease{
     justify-content: center;
+}
+.bg-colornavbar{
+    background-color: #CBAD8D;
 }
 
 
