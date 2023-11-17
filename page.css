@@ -40,6 +40,10 @@ div .cull .vanness{
     justify-content: center;
     align-items: center;
 }
+.sectioncolor{
+    background-color:#BA9984;
+    color:#41352B;
+}
 .bg-colornavbar{
     background-color: #F5F4E8;
 }
@@ -53,6 +57,26 @@ div .cull .vanness{
 .fontnavbar{
     color:#41352B
 }
+.categorycolor{
+    background-color: #C3B6A7;
+    color: #41352B;
+}
+.spaceevenly{
+    display:flex;
+    justify-content: space-evenly;
+}
+.rightnavbar{
+    display:flex;
+    flex-direction: row;
+}
+.navflex{
+    display:flex;
+}
+.paddingtop{
+    padding-top:8px;
+}
+
+
 
 .footer-logo{
     width: 40px;
