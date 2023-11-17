@@ -63,7 +63,6 @@ div .cull .vanness{
 
 
 
-
 /* dcz is dacodaz generalised CSS rule */
 .dcz-shadow {
     box-shadow: 0 0 50px rgb(0, 0, 0, 0.15);
@@ -81,6 +80,41 @@ div .cull .vanness{
 }
 
 
+.usp-contents {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.usp-solo {
+    display: flex;
+    align-items: baseline;
+    color: #CBAD8D;
+    font-size: 32px;
+}
+
+.usp-3 {
+    align-items: flex-start;
+    
+}
+
+#no-margin {
+    margin: 0px;
+}
+
+.usp-icon {
+    margin: 6px;
+    font-size: 32px;
+}
+
+.usp-icon, .material-symbols-outlined{
+    font-size: 44px;
+
+}
+
+#made-from-nature {
+    margin-top: 6px;
+}
 
 
 /* 👇🏻for mobile size */
