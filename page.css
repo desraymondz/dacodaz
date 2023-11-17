@@ -184,6 +184,33 @@ footer {
     margin-top: 6px;
 }
 
+.membership {
+    background-color: #F4F4E7;
+    height: 320px;
+}
+
+.membership-arc {
+    top: 50%; 
+    left: 50%; 
+    height: 260px; 
+    width: 100vw; 
+    border-radius: 0 0 100% 100%; 
+    background-color: #EEE3D0; 
+}
+
+.membership-title {
+    /* margin-top: -20px; */
+    padding-top: 24px;
+}
+
+.membership-text {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 58px;
+    /* margin-top: 50px; */
+    margin-bottom: 24px;
+}
 
 /* 👇🏻for mobile size */
 @media (max-width: 767px) {
