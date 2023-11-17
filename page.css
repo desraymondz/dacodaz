@@ -76,9 +76,15 @@ div .cull .vanness{
     padding-top:8px;
 }
 
+<<<<<<< Updated upstream
 footer {
     font-family: 'Playfair Display', sans-serif;  
     background-color: #b99984;
+=======
+
+#berightnavbar{
+    align-self: flex-end;
+>>>>>>> Stashed changes
 }
 
 
@@ -112,6 +118,10 @@ footer {
 
 
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 /* dcz is dacodaz generalised CSS rule */
 .dcz-shadow {
@@ -232,5 +242,21 @@ footer {
 .solo-card{
     display: flex;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.item{
+    margin: 10px;
+}
+
 
 /* ❤️made with love by dacodaz 13 Nov 2023 Hackathon SIM UOL CSSC 🎓 Desmond, Alex, Vanness, Fukutaro, Cull */
