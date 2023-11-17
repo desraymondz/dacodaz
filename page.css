@@ -70,47 +70,28 @@ div .cull .vanness{
     display:flex;
     justify-content: space-evenly;
 }
-.rightnavbar{
-    display:flex;
-    flex-direction: row;
-}
+
 .navflex{
     display:flex;
 }
 .paddingtop{
     padding-top:8px;
 }
-
-
-
-.card_pay{
-    font-size: 20pt;
-    align-content: center;
+.paddingbottom{
+    padding-bottom:65px;
 }
-
-.pay{
-    margin: 20px 40%;
-    padding: 0 10px;
-    border: 2px solid #41352B;
-
+.buttoncolor{
+    background-color:#41352B;
+    color:#F5F4E8;
 }
-
-#idk{
-    justify-content:center;
-    display: flex;
+.sectionfontcolor{
+    color: #41352B;
 }
 
 
-
-
-
-
-
-
-
-
-
-
+.padtopnav{
+    padding-top: 42px;
+}
 
 .footer-logo{
     width: 40px;
@@ -129,7 +110,26 @@ div .cull .vanness{
   font-size: 16px;
 }
 
+footer {
+    font-family: 'Playfair Display', sans-serif;  
+    background-color: #b99984;
+}
 
+
+.footer-container{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer-col{
+    width: 260;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 
 
@@ -186,6 +186,13 @@ div .cull .vanness{
 
 #made-from-nature {
     margin-top: 6px;
+}
+
+
+/* 👇🏻for mobile size */
+@media (max-width: 767px) {
+
+
 }
 
 .membership {
@@ -326,6 +333,5 @@ footer {
 .best-selling{
     background-color:rgb(247, 214, 161);
 }
-
 
 /* ❤️made with love by dacodaz 13 Nov 2023 Hackathon SIM UOL CSSC 🎓 Desmond, Alex, Vanness, Fukutaro, Cull */
