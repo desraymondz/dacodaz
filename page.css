@@ -39,13 +39,13 @@ div .cull .vanness{
     justify-content: center;
 }
 .bg-colornavbar{
-    background-color: #ECE3D3;
+    background-color: #CBAD8D;
 }
 .marginleft{
     margin-left: 25px;
 }
 .fontnavbar{
-    color:#41352B
+    color:#3A2D28
 }
 
 
@@ -74,7 +74,43 @@ div .cull .vanness{
     transform: scale(1.05); 
 }
 
+/* 🤵🏻‍♂️desmond's css */
+.usp-container {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+.usp-contents {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.usp-solo {
+    display: flex;
+    align-items: baseline;
+    color: #CBAD8D;
+    font-size: 32px;
+}
+
+.usp-3 {
+    align-items: flex-start;
+    
+}
+
+#no-margin {
+    margin: 0px;
+}
+
+.usp-icon {
+    margin: 6px;
+}
+
+#made-from-nature {
+    margin-top: 6px;
+}
 
 
 /* 👇🏻for mobile size */
