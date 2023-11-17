@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;  
+    font-family: 'playfair', sans-serif;  
     background-color: rgb(250, 250, 250);
 }
 
@@ -35,6 +35,9 @@ div .cull .vanness{
     background-color: yellow;
 }
 
+.newrelease{
+    justify-content: center;
+}
 
 
 
